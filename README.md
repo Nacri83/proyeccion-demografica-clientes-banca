@@ -42,6 +42,8 @@ Variación de la población por tramo de edad (2026→2036):
 
 ## Visualizaciones
 
+> **Nota sobre el desarrollo:** el código de las gráficas se desarrolló con apoyo de IA (Claude), a partir de un prompt. Los análisis, las conclusiones y la ejecución del notebook se revisaron por la autora.
+
 Los gráficos se generan al ejecutar el notebook (no se incluyen en el repositorio):
 
 - `grafico1_completo.png`: índice de envejecimiento y tasa de dependencia, normalizados y en valores absolutos.
@@ -62,7 +64,7 @@ Los gráficos se generan al ejecutar el notebook (no se incluyen en el repositor
 ├── 06-15-2026_indice_envejecimiento.csv
 ├── 06-15-2026_tasa_dependencia_poblacion_mayor.csv
 ├── 06-15-2026_poblacion_2024-2074.csv
-├── 06-08-2026_Clean.csv
+├── 06-08-2026_Clean.csv                 # Datos de clientes del simulador de empresa
 ├── 22_JUN_2026_Reporte_de_Negocio.pdf   # Reporte de negocio: proyección INE y relación con el resto de la estrategia
 └── README.md
 ```
@@ -80,7 +82,7 @@ Coloca los CSV junto al notebook y ejecútalo de arriba abajo.
 
 - Las proyecciones del INE son escenarios de referencia, no predicciones exactas.
 - La cobertura compara clientes con población total del tramo, no con población bancarizada.
-- La base de clientes tiene más variables (profesión, estado civil, saldo e historial de campañas), pero este análisis usa solo la edad.
+- La base de clientes proviene del simulador de empresa, no de un banco real. Tiene más variables (profesión, estado civil, saldo e historial de campañas), pero este análisis usa solo la edad.
 
 ## Próximos pasos
 
