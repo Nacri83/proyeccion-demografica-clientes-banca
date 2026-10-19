@@ -1,5 +1,7 @@
 # Ajuste de segmentación bancaria con proyecciones demográficas del INE
 
+> Proyecto del bootcamp de Data Analytics de IT Academy, desarrollado en un simulador de empresa.
+
 > Análisis de datos para evaluar si la segmentación de clientes de un banco debe adaptarse a la evolución demográfica prevista en España entre 2026 y 2036.
 
 ---
@@ -61,6 +63,7 @@ Los gráficos se generan al ejecutar el notebook (no se incluyen en el repositor
 ├── 06-15-2026_tasa_dependencia_poblacion_mayor.csv
 ├── 06-15-2026_poblacion_2024-2074.csv
 ├── 06-08-2026_Clean.csv
+├── 22_JUN_2026_Reporte_de_Negocio.pdf   # Reporte de negocio: proyección INE y relación con el resto de la estrategia
 └── README.md
 ```
 
